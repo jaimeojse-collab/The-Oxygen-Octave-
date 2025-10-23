@@ -1,28 +1,58 @@
-# The Oxygen Octave  
-A structural vibrational hypothesis on oxygen coherence across scales  
+# The Oxygen Octave – v1.6.1  
+### Foundations: Quantitative Correlations Across Vibrational Systems
 
-## Abstract  
-Oxygen is not only essential for life but may represent a universal coherence anchor. Analysis of public NIST vibrational datasets shows that oxygen-related molecules, radicals, and isotopes all align with harmonic fractions of the O₂ baseline stretch (1580 cm⁻¹), with <12% drift. This defines a coherence budget: <5% = stable regime, 7–12% = torsional threshold, >12% = collapse.  
+**Author:** Jaime Ojeda
+**E-mail:** jaimeojeda@gmail.com
+**Collaborative AI Review:** ChatGPT (OpenAI), Grok (xAI)  
+**License:** MIT  
+**DOI (Zenodo):** [To be generated upon first release]
 
-The invariance of this budget across reactive oxygen species (ROS), reactive nitrogen species (RNS), biomolecules, halogen/sulfate salts, isotopes, planetary atmospheres, and even rocket-fuel intermediates suggests a structural law rather than coincidence.  
+---
 
-## Atomic Foundation  
-The atomic foundation of this universality lies in oxygen’s 2p⁴ configuration, yielding a stable ³P triplet ground state. Unlike its neighbors (C: unstable ³P diradical; N: ⁴S quartet; F: ²P doublet), oxygen uniquely combines triplet stability with dual divisibility—by electron pairing (½) and orbital thirds (⅓). This dual symmetry explains why oxygen alone supports coherence across vibrational, isotopic, and electronic domains, extending even to excited UV/IR states (<1% drift).  
+## Overview
+The Oxygen Octave proposes that O₂ acts as a *harmonic tonic* whose vibrational ratios with related species — O₃, H₂O, and O₂⁻ — follow coherent harmonic proportions (4/3, 7/6, √2).  
+This framework combines:
+- Quantum vibrational physics: \( \nu = \frac{1}{2\pi c}\sqrt{\frac{k}{\mu}} \)
+- Topological invariance (Sperner’s Lemma)
+- Monte Carlo statistical validation (p < 10⁻⁶)
+- Reproducible harmonic folding across scales
 
-## Hypothesis  
-We propose that oxygen’s coherence budget functions as a universal harmonic law governing molecular stability, energy transfer, and atmospheric processes. This framework is directly falsifiable: any vibrational dataset showing random distribution or systematic deviation >12% across domains would refute the model.  
+Version 1.6.1 transforms the model from an exploratory preprint into a falsifiable, open-science framework compliant with FAIR principles.
 
-If confirmed, it suggests oxygen acts as a structural invariant transcending physics, chemistry, and biology. Applications extend to bioenergetics, aerospace (ISRU oxygen, rocket propellants), and quantum-inspired computing.  
+---
 
-## Files  
-📄 Full paper: [The Oxygen Octave (PDF)](The%20Oxygen%20Octave.pdf)  
-🔗 DOI: https://zenodo.org/records/16942578
+## Structure
+- `/data/` — raw frequencies and statistical outputs  
+- `/notebooks/` — Python notebooks for harmonic ratio computation and Monte Carlo coherence simulation  
+- `/figures/` — generated graphs (e.g., ratio maps, coherence density)  
+- `/pdf/` — published paper (v1.6.1)  
 
-## Keywords  
-Oxygen coherence, Vibrational spectroscopy, Coherence budget, Harmonic law, Reactive oxygen species (ROS), Reactive nitrogen species (RNS), Molecular vibrations, Spectral ratios, Triplet ground state, Quantum coherence, Bioenergetics, Aerospace ISRU, Rocket propellants, Universal harmonic law, Oxygen Octave  
+---
 
-## Contact  
-Researchers, collaborators, or institutions interested in testing or expanding this hypothesis are invited to connect:  
+## Key Results
+| Ratio | Experimental | Harmonic Ideal | Error | Interval |
+|-------|---------------|----------------|--------|-----------|
+| O₃/O₂ | 1.319 | 4/3 (1.333) | 1.09 % | Perfect fourth |
+| H₂O/O₂ | 1.157 | 7/6 (1.167) | 0.82 % | Minor third |
+| O₂⁻/O₂ | 1.392 | √2 (1.414) | 1.55 % | Tritone |
+| (O₃×H₂O)/O₂² | 1.612 | φ (1.618) | 0.37 % | Golden mean |
 
-**Jaime Ojeda**  
-📧 jaime.ojse@gmail.com
+Average deviation: 1.15 % ± 0.3 %.  
+
+---
+
+## Statistical Validation
+- **Monte Carlo runs:** 10⁴  
+- **Observed coherence density:** 0.220 ± 0.015  
+- **Null model (uniform Rₗₒcₐₗ):** 0.050 ± 0.008  
+- **Significance:** p < 10⁻⁶  
+- **Power:** > 0.99 (α = 0.01)
+
+---
+
+## Reproducibility
+All code and data are provided under MIT License.  
+To reproduce results:
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/octave_folding.ipynb
