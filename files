@@ -1,0 +1,4 @@
+data/          (CSV pequeños + README_data.md)
+notebooks/     (octave_folding.ipynb, monte_carlo_coherence.ipynb)
+figures/       (PNGs que salen de los notebooks)
+pdf/           (The_Oxygen_Octave_v1.6.1.pdf)
