@@ -8,7 +8,7 @@
 Text and figures © 2025 Jaime Ojeda — released under **Creative Commons Attribution 4.0 (CC BY 4.0)**.  
 Code and computational notebooks are released under the **MIT License**.  
 See `LICENSE` and `LICENSE_CODE` for details. 
-**DOI (Zenodo):** [https://zenodo.org/records/17418884]
+**DOI (Zenodo):** [(https://zenodo.org/records/17421259)]
 
 ---
 
