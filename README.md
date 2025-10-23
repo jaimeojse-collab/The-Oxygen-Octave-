@@ -4,8 +4,11 @@
 **Author:** Jaime Ojeda
 **E-mail:** jaimeojeda@gmail.com
 **Collaborative AI Review:** ChatGPT (OpenAI), Grok (xAI)  
-**License:** MIT  
-**DOI (Zenodo):** [To be generated upon first release]
+## License
+Text and figures © 2025 Jaime Ojeda — released under **Creative Commons Attribution 4.0 (CC BY 4.0)**.  
+Code and computational notebooks are released under the **MIT License**.  
+See `LICENSE` and `LICENSE_CODE` for details. 
+**DOI (Zenodo):** [https://zenodo.org/records/17418884]
 
 ---
 
