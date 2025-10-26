@@ -1,0 +1,8 @@
+molecule,mode_label,frequency_cm_1
+O2,stretch,1580.0
+H2O,symmetric_stretch,3657.1
+H2O,bend,1594.7
+H2O,asymmetric_stretch,3755.9
+O3,nu1_sym,1103.1
+O3,nu3_asym,1042.1
+O3,nu2_bend,710.2
