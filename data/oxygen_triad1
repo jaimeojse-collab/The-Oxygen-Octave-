@@ -1,0 +1,20 @@
+{
+  "notes": "Baseline dataset for O2–H2O–O3 coherence benchmark (gas phase, ~300K). Numbers are literature-typical placeholders for v0.1; replace with NIST/HITRAN/JPL exact lines in v0.2.",
+  "O2": {
+    "bond_length_A": 1.2075,
+    "symmetry": "Dinfh",
+    "vibrational_modes_cm-1": [1580.0]
+  },
+  "H2O": {
+    "bond_length_A": [0.9578, 0.9578],
+    "bond_angle_deg": 104.5,
+    "symmetry": "C2v",
+    "vibrational_modes_cm-1": [3657.1, 1594.7, 3755.9]
+  },
+  "O3": {
+    "bond_length_A": [1.271, 1.271],
+    "bond_angle_deg": 117.0,
+    "symmetry": "C2v (resonance)",
+    "vibrational_modes_cm-1": [1103.1, 1042.1, 710.2]
+  }
+}
