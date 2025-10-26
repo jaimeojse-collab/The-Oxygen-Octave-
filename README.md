@@ -54,3 +54,15 @@ To reproduce calculations:
 ```bash
 pip install -r requirements.txt
 python scripts/fold_ratios.py
+
+## GETM-Coherence-Lab (v0.1)
+
+This repo now includes a minimal, reproducible baseline for the
+**O₂–H₂O–O₃ coherence benchmark**:
+- `core/coherence_operator.py` — coherence projector C(λ)
+- `data/oxygen_triad/*` — placeholder spectra/geometry
+- `benchmarks/phi_ratio_validation.py` — φ-ratio convergence test
+- `viz/radar_dashboard.py` — quick radar plot
+
+> Next: replace placeholders with exact HITRAN/NIST/JPL lines (v0.2),
+> add Streamlit dashboard, and publish the **Oxygen Coherence Index (OCI)**.
